@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.titulo-app{
+    padding: 30px;
+    color: bisque;
+}
+
+#saida{
+    display: flexbox;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: darkslategrey;
+    color:chocolate;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}

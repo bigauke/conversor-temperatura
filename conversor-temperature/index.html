@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Conversor de Temperatura</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center titulo-app">
+        <h1>Conversor de Temperatura<span id="temp" class="fa"></span></h1> 
+      </div>
+    </div>
+
+    <div class="input-area text-center">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="form-group">
+            <label for="temperatura-entrada" class="text-light">Temperatura em °C</label>
+            <input type="text" id="temperatura-entrada" class="form-control">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="saida">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card bg-primary mb-2">
+            <span id="saida-kelvin"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="saida">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <div class="card bg-secundary mb-2">
+                <span id="saida-fahrenheit"></span>
+              </div>
+            </div>
+          </div>
+
+          <div id="saida">
+              <div class="row">
+                <div class="col-md-6 mx-auto">
+                  <div class="card bg-success mb-2">
+                    <span id="saida-rankine"></span>
+                  </div>
+                </div>
+              </div>
+    </div>  
+    
+    <footer>      
+        Desenvolvido por Daniel Linhares - 2021     
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
