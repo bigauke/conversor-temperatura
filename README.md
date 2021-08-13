@@ -1,2 +1,2 @@
 # conversor-temperatura
-Conversor de temperatura para de celsius para Fahrenheit, 
+Conversor de temperatura para Celsius, Fahrenheit e Rankine, 
